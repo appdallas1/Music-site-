@@ -1,0 +1,115 @@
+/*
+ * Jamroom 5 Elastic CSS
+ * Copyright 2003-2011 by Talldude Networks, LLC.
+ * @author Brian Johnson - brian@talldude.net
+ */
+
+/* @title Page Background */
+/* @help This is the main background for the site */
+html {
+    background-color:#333333;
+    background-image:url("{$jamroom_url}/skins/jrElastic/img/bckgrd.png");
+}
+
+/* @title Body */
+/* @help This is the main style for the body of the page */
+body {
+    background-color:#ffffff;
+    font-family:Tahoma,sans-serif;
+    font-size:14px;
+    color:#000000;
+    padding:0;
+    margin:0;
+}
+
+/* @title Text Links */
+/* @help Text URL links */
+a {
+    color:#336699;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+/* @title Text Link Hover */
+/* @help Text URL Hover */
+a:hover {
+    color:#333;
+    text-decoration:underline;
+}
+
+/* @title Heading 1 */
+/* @help Heading Text size 24px  */
+h1 {
+    font-size:24px;
+    display:inline;
+    padding:0;
+    margin:0;
+    text-transform:capitalize;
+}
+
+/* @title Heading 2 */
+/* @help Heading Text size 18px  */
+h2 {
+    font-size:18px;
+    display:inline;
+    padding:0;
+    margin:0;
+    text-transform:capitalize;
+}
+
+/* @title Heading 3 */
+/* @help Heading Text size 14px  */
+h3 {
+    font-size:14px;
+    display:inline;
+    padding:0;
+    margin:0;
+    text-transform:capitalize;
+}
+
+/* @title Heading 4 */
+/* @help Heading Text size 12px  */
+h4 {
+    font-size:12px;
+    display:inline;
+    padding:0;
+    margin:0;
+    text-transform:capitalize;
+}
+/* @title Heading 5 */
+/* @help Heading Text size 10px  */
+h5 {
+    font-size:10px;
+    display:inline;
+    padding:0;
+    margin:0;
+    text-transform:capitalize;
+}
+/* @title Heading 6 */
+/* @help Heading Text size 8px  */
+h6 {
+    font-size:8px;
+    display:inline;
+    padding:0;
+    margin:0;
+    text-transform:capitalize;
+}
+
+/* @title Breadcrumb */
+/* @help The size of the navigation links under the headings  */
+.breadcrumbs {
+    font-weight:normal;
+    font-size:0.75em;
+}
+/* @title Breadcrumb link-color */
+/* @help The color of the links in the breadcrumb navigation  */
+.breadcrumbs a {
+    color:#336699;
+    text-decoration:none;
+}
+/* @title Breadcrumb link-color */
+/* @help The color of the links in the breadcrumb navigation  */
+.breadcrumbs a:hover {
+    color: #333;
+    text-decoration:underline;
+}

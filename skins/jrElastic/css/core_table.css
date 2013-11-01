@@ -1,0 +1,104 @@
+/* @title Tables */
+/* @help This is the HTML table style */
+table {
+    width:100%;
+    border-width:0;
+    border-spacing:0;
+}
+
+/* @title Table TD */
+/* @help This is the TD tag for tables */
+td, th {
+    padding:0;
+}
+
+/* @title Table Links */
+/* @help This is the color for URL links in a table */
+td a {
+    color:#000000;
+}
+
+/* @title Page Table */
+/* @help This is the page table style */
+.page_table {
+    border-spacing:1px;
+    background-color:#BBBBBB;
+    width:100%;
+    margin-bottom:12px;
+}
+
+/* @title Page Table Header */
+/* @help This is the page header table style */
+.page_table_header {
+    background-color:#E8EAEB;
+    text-align:center;
+    padding:6px;
+    font-size:12px;
+    text-transform:capitalize;
+    color:#000000;
+    white-space:nowrap;
+}
+
+/* @title Page Table Row */
+/* @help This is the page row table style */
+.page_table_row {
+    background-color:#F5F5F5;
+}
+
+/* @title Table Row Alt */
+/* @help This is the alternate page row table style */
+.page_table_row_alt {
+    background-color:#FBFBFB;
+}
+
+/* @title Page Table Cell */
+/* @help This is the page table cell style */
+.page_table_cell {
+    padding:5px;
+    font-size:12px;
+    color:#000;
+}
+
+/* @title Page Table Pager */
+/* @help This is the page pagination table style */
+.page_table_pager {
+	background-color:#FFF;
+}
+
+/* @title Page Pager Left */
+/* @help This is the left pagination cell */
+.page_table_pager_left {
+    width:25%;
+    padding:5px;
+}
+
+/* @title Page Pager Center */
+/* @help This is the center pagination cell */
+.page_table_pager_center {
+    text-align:center;
+    width:50%;
+    padding:5px;
+    font-size:11px;
+}
+
+/* @title Page Pager Right */
+/* @help This is the right pagination cell */
+.page_table_pager_right {
+    text-align:right;
+    width:25%;
+    padding:5px;
+}
+
+/* @title Page Pager Jumper */
+/* @help This is the page selection drop down */
+.page_table_jumper {
+    width:50px;
+}
+
+/* @title Page Notice */
+/* @help This is the page notice section */
+.page_table_notice {
+    text-align:center;
+    line-height:32px;
+    font-size:14px;
+}

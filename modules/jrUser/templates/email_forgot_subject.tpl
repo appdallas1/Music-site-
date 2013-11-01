@@ -1,0 +1,1 @@
+{$system_name} {jrCore_lang module="jrUser" id="83" default="password reset"}

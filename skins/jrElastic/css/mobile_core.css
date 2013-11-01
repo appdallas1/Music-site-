@@ -1,0 +1,326 @@
+/* Mobile */
+@media handheld, only screen and (max-width: 767px) {
+
+    body {
+        width:100%;
+        min-width:0;
+        margin:0;
+        padding:0;
+        font-size: 10px;
+        -webkit-text-size-adjust: none;
+    }
+    h1 {
+        font-size:14px;
+        font-weight:bold;
+    }
+    h2 {
+        font-size:13px;
+    }
+    h3 {
+        font-size:12px;
+    }
+    h4 {
+        font-size:11px;
+    }
+
+    #header {
+        margin-bottom:0;
+        height:auto;
+    }
+    #main_logo {
+        float:none;
+        text-align:center;
+        padding-bottom:0;
+    }
+    #footer {
+        margin-top:0;
+    }
+    #footer_logo img {
+        display:none;
+    }
+    #footer_text {
+        padding:0 12px;
+        font-size:11px;
+        text-align:left;
+    }
+
+    #main_menu {
+        padding:6px;
+        text-align:center;
+        font-size:14px;
+    }
+
+    .row, .container {
+        width:100%;
+	    min-width:0;
+        margin:0;
+	    padding:0;
+    }
+
+    .row .col1, .row .col2, .row .col3, .row .col4, .row .col5, .row .col6, .row .col7, .row .col8, .row .col9, .row .col10, .row .col11, .row .col12 {
+	    width:auto;
+	    float:none;
+	    margin-left:0;
+	    margin-right:0;
+	    padding-left:0;
+	    padding-right:0;
+    }
+
+    .block {
+        font-size:12px;
+    }
+
+    #item-list {
+        background:#ccc;
+        height:86px;
+        overflow:scroll;
+        overflow-y:scroll;
+        border:3px solid #222;
+    }
+    .tab-bar {
+        padding-left:2px;
+    }
+    .tab {
+        background:#000;
+        float:left;
+        list-style:none;
+        margin:0;
+        font-size:18px;
+        color:#fff;
+        text-decoration:none;
+        text-transform:capitalize;
+        padding:6px;
+        text-align:left;
+        cursor:pointer;
+        -webkit-border-radius:0 0 0 0;
+        -moz-border-radius:0 0 0 0;
+        border-radius:0 0 0 0;
+    }
+    .tab-active {
+        color:#fff;
+        border:0;
+    }
+    #item-holder {
+        margin-right:0;
+    }
+
+    .page_content {
+        width:100%;
+        margin:0 auto;
+    }
+
+    .page_banner_box {
+        background-color:#ffffff;
+    }
+    .page_banner {
+        margin-bottom:6px;
+    }
+
+    /* @title Page Banner Icon */
+    /* @help The Page Banner Icon section is the small section at the top of pages where the module icon appears */
+    .page_banner_icon {
+        padding:0;
+        margin:0;
+    }
+    .page_banner_icon img {
+        display:none;
+    }
+
+    .page_banner_left {
+        text-align:left;
+        background-color:#ededed;
+        padding:3px 9px;
+        font-size:12px;
+        font-weight:bold;
+        text-transform:capitalize;
+        white-space:nowrap;
+    }
+
+    .page_banner_right {
+        background-color:#ededed;
+        padding:6px 12px;
+        text-align:right;
+    }
+
+    .page_table_header {
+        font-size:8px;
+    }
+    .page_table_cell {
+        padding:2px;
+        font-size:8px;
+    }
+    .nowrap {
+        white-space:normal;
+    }
+
+    .element_left {
+        padding:3px;
+        font-size:11px;
+    }
+    .element_right {
+        font-size:10px;
+        padding:3px;
+    }
+
+    .profile_image_element_right img {
+        width:128px;
+    }
+
+    .profile_menu_entry {
+        width:70%;
+        padding:8px;
+        margin-bottom:3px;
+    }
+
+    .form_button {
+        font:bold 10px Verdana,sans-serif;
+        padding:0 6px;
+        margin:0;
+    }
+
+    .form_select_item_jumper {
+        width:50%;
+    }
+
+    .upload_button {
+        font:bold 10px Verdana,sans-serif;
+        height:20px;
+        padding:6px 6px 0 6px;
+        margin:0;
+    }
+
+    .create_img {
+        height:20px;
+        width:20px;
+    }
+    .update_img {
+        height:20px;
+        width:20px;
+    }
+    .delete_img {
+        height:20px;
+        width:20px;
+    }
+    .download_img {
+        height:20px;
+        width:20px;
+    }
+
+    /* Tab Bar */
+    .page_tab_bar_holder {
+        width:100%;
+        background:#FFFFFF;
+        border-bottom:0;
+    }
+    .page_tab_bar_spacer {
+        height:0;
+        background-color: #ffffff;
+    }
+    .page_tab_bar {
+        padding-left:0;
+    }
+    .page_tab {
+        background:#ddd;
+        float:left;
+        list-style:none;
+        margin:6px 6px 6px 0;
+        color:#000000;
+        text-transform:capitalize;
+        font:14px Verdana,sans-serif;
+        padding:6px;
+        text-align:center;
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px;
+        border-radius:4px;
+    }
+    .page_tab a {
+        color:#000;
+        text-decoration:none;
+    }
+    .page_tab_first {
+        margin-left:0;
+    }
+    .page_tab_last {
+        background:#ddd;
+        color:#000;
+    }
+    .page_tab_active {
+        background:#444;
+        color:#FFF;
+        border:0;
+    }
+    .page_tab_active a {
+        color:#FFF;
+    }
+
+    .info_img {
+        display:none;
+    }
+
+    .gallery_img {
+        width:100%;
+    }
+
+    .item {
+        padding:6px;
+        font:12px Verdana,sans-serif;
+    }
+
+    #action_text {
+        width:95%;
+    }
+    .action_item_holder {
+        text-align:left;
+        display:inline-block;
+    }
+
+    .action_item {
+        width:100%;
+        font-size:11px;
+        overflow:auto;
+        clear:both;
+    }
+
+    .action_item_date {
+        clear:both;
+        float:none;
+        text-align:left;
+        font-size:8px;
+        font-style:italic;
+        margin:6px 0 0 0;
+    }
+
+    .action_item_user_img {
+        margin:0 9px 0 0;
+        width:32px;
+        height:32px;
+    }
+
+    .action_media_thumb {
+        display:inline-block;
+    }
+    .action_media_thumb img {
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+
+    .left {
+        font-size:10px;
+    }
+    .right {
+        font-size:10px;
+    }
+
+    .form_text_search {
+        width:33%;
+    }
+
+    .ds_browser_key {
+        width:auto;
+    }
+
+    #ds_browser_new_key {
+        width:80px;
+    }
+}

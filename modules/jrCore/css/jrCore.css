@@ -1,0 +1,451 @@
+/* Modal Window */
+#simplemodal-overlay {
+    background-color:#000;
+    cursor:wait;
+}
+#modal_window {
+    display:none;
+    overflow:auto;
+}
+#modal_updates {
+    color: #000;
+    font-size:12px;
+    font-family:monospace;
+    padding:8px 16px;
+    overflow:auto;
+}
+#modal_indicator {
+    display:none;
+    float:right;
+    position:relative;
+    top:60px;
+    right:20px;
+}
+
+/* File form field */
+.jrcore_file_detail {
+    width:65%;
+    padding:10px;
+    margin:0 0 12px 3px;
+    font-size:14px;
+}
+.jrcore_file_detail_left {
+    width:5%;
+}
+.jrcore_file_detail_right {
+    width:95%;
+    padding:6px;
+    text-align:left;
+}
+.jrcore_file_title {
+    width:100px;
+    display:inline-block;
+    text-align:right;
+}
+
+.at_link a {
+    color:#000099;
+    text-decoration:none;
+}
+
+.at_link a:hover {
+    text-decoration:underline;
+}
+
+/* Admin Menu Accordion */
+.accordion {
+    margin:0;
+    padding-top:10px;
+}
+dt {
+    padding:12px;
+    font-weight:bold;
+    cursor:pointer;
+}
+dt a {
+    color:black;
+}
+dd {
+    padding:3px 0;
+    margin:0;
+    font-size:12px;
+}
+
+#item-holder {
+    margin-right:9px;
+}
+#item-list {
+    width:100%;
+    display:table;
+    overflow:scroll;
+    margin:9px;
+    margin-right:0;
+    padding:6px;
+}
+.item-row {
+    width:100%;
+    display:table-row;
+    cursor:pointer;
+    height:42px;
+    background:#ddd;
+}
+.item-row-active {
+    background:#fff;
+}
+.item-row:hover {
+    background:#fff;
+}
+.item-icon {
+    display:table-cell;
+    padding:3px;
+    border-bottom:1px solid #aaa;
+}
+.item-entry {
+    width:100%;
+    display:table-cell;
+    padding:6px;
+    font-size:14px;
+    color:#000;
+    vertical-align:middle;
+    border-bottom:1px solid #aaa;
+}
+.item-enabled {
+    display:table-cell;
+    padding-right:6px;
+    border-bottom:1px solid #aaa;
+}
+.item-disabled {
+    display:table-cell;
+    color:#000000;
+    background:#fc0;
+    font-size:11px;
+    padding:6px;
+    border:1px solid #aaa;
+    border-radius:4px;
+}
+.item-active {
+    display:table-cell;
+    background:#cf9;
+    font-size:11px;
+    padding:6px;
+    border:1px solid #aaa;
+    border-radius:4px;
+}
+#item-work {
+    background:#ddd;
+}
+
+#error_log {
+    font-family:Monaco, "Lucida Console", monospace;
+    width:100%;
+    max-width:840px;
+    padding:6px;
+    font-size:10px;
+    overflow:scroll;
+}
+
+#debug_log {
+    font-family:Monaco, "Lucida Console", monospace;
+    width:100%;
+    max-width:840px;
+    padding:6px;
+    font-size:10px;
+    overflow:scroll;
+    white-space:pre-line;
+}
+
+/* DataStore Browser */
+.ds_browser_key {
+    width:250px;
+    display:inline-block;
+    text-align:right;
+}
+.ds_browser_value {
+    text-align:left;
+    padding-left:3px;
+}
+
+#ds_browser_new_key {
+    width:120px;
+}
+
+/* Template Editor */
+.form_editor_holder {
+    text-transform:none;
+    display:inline-block;
+    width:81%;
+}
+.form_template {
+    text-transform:none;
+    width:875px;
+}
+.form_template_editor {
+    text-transform:none;
+    height:600px;
+}
+
+.php_Notice {
+}
+.php_Warning {
+    color:#FF9900;
+}
+.php_Fatal, .php_Parse {
+    color:#FF0000;
+}
+
+.log-inf {
+    text-align:left;
+}
+.log-min {
+    background:#ff9;
+    text-align:left;
+}
+.log-maj {
+    background:#f93;
+    text-align:left;
+}
+.log-cri {
+    background:#f63;
+    text-align:left;
+}
+.style-box {
+    margin-top:6px;
+    border-left:1px solid #ddd;
+    font-size:12px;
+    float:left;
+}
+.style-input {
+    width:120px;
+}
+.style-select {
+    width:130px;
+}
+.style-color {
+    width:24px;
+    margin:0px 6px;
+    cursor:pointer;
+}
+.style-label {
+    display:inline-block;
+    width:120px;
+    text-align:right;
+    margin:6px;
+    padding:0px;
+}
+
+.CodeMirror {
+    width:95%;
+    padding:6px;
+    font-size:12px;
+    border:solid 1px #7f7f7f;
+    overflow:scroll;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+}
+.fullscreen {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+    border: 0px solid #BBBBBB;
+    opacity: 1;
+}
+#jqp {
+    background: #fafafa;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    width: 360px;
+    padding: 6px 2px 2px 6px;
+    border:solid 1px #7f7f7f;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    z-index: 99;
+}
+
+#jqp h2 {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+
+#jqp ul {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    zoom:1;
+}
+
+#jqp ul:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+#jqp ul li {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+#jqp ul li a {
+    display: block;
+    width: 13px;
+    height: 13px;
+    text-decoration: none;
+    text-indent: -100000px;
+    outline: 0;
+    border:solid 1px #7f7f7f;
+}
+
+#jqp ul li a:hover {
+    border-color: #000;
+}
+
+/* popup calendar */
+/* Calendar container div */
+.gldp-default {
+    float:left;
+    background-color:#ccc !important;
+    font-size:1em !important;
+    border:solid 1px #888;
+    position:relative;
+    z-index:100;
+}
+
+/* Table style */
+.gldp-default table {
+    border-spacing:1px;
+    border-collapse:inherit;
+}
+
+/* Default row height */
+.gldp-default tr {
+    line-height:28px;
+}
+
+/* Default style of cell */
+.gldp-default td {
+    margin:0;
+    padding:0;
+    width:33px;
+    text-align:center;
+}
+
+/* Previous and Next arrows */
+.gldp-default-prevnext {
+    color:#222;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* Month Year title */
+.gldp-default-monyear {
+    color:#222;
+    font-size:1em !important;
+    font-weight:bold;
+}
+
+/* Days of the week (Sun, Mon, ...) */
+.gldp-default-dow {
+    background-color:#fc0;
+    color:#000;
+    font-size:1em !important;
+    font-weight:bold;
+}
+
+/* Selectable days */
+.gldp-default-day {
+    background-color:#fff;
+    color:#222;
+    border:solid 1px #fff;
+    font-weight:bold;
+}
+.gldp-default-day-hover {
+    background-color:#fff;
+    color:#f82200;
+    border:solid 1px #fc0;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* Selected days */
+.gldp-default-selected {
+    background-color:#fee;
+    color:#222;
+    border:solid 1px #fc0;
+}
+/* Today */
+.gldp-default-today {
+    background-color:#fc0;
+    color:#000;
+    border:solid 1px #000;
+    font-weight:bold;
+}
+.gldp-default-today-hover {
+    background-color:#fff;
+    color:#f82200;
+    border:solid 1px #fc0;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* Weekends */
+.gldp-default-sat, .gldp-default-sun {
+    background-color:#fff;
+    color:#004f8f;
+    border:solid 1px #fff;
+    font-weight:bold;
+}
+.gldp-default-sat-hover, .gldp-default-sun-hover {
+    background-color:#fff;
+    color:#004f8f;
+    border:solid 1px #fc0;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* Non-selectable day.  Includes:previous/next month days and days that fall in the allowOld and endDate conditions */
+.gldp-default-noday {
+    background-color:#fff;
+    border:solid 1px #fff;
+    color:#666;
+    cursor:wait;
+}
+
+.item_sortable {
+    margin:auto;
+    padding:0;
+    list-style:none outside none;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.item_sortable li {
+    border:1px solid #BBBBBB;
+    list-style:none;
+    cursor:move;
+    padding:5px 12px 5px 12px;
+    margin:5px;
+    height:20px;
+    font-size:14px;
+    overflow:hidden;
+}
+li.sortable-placeholder {
+    border:2px dashed #CCCCCC;
+    background:none;
+    padding:5px 12px 5px 12px;
+    margin:5px;
+    height:18px;
+}

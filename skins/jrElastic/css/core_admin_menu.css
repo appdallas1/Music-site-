@@ -1,0 +1,78 @@
+#item-holder {
+    margin-right:9px;
+}
+/* @title Menu List */
+/* @help The main list for the Menu */
+#item-list {
+    width:100%;
+    display:table;
+    overflow:scroll;
+    margin:9px;
+    margin-right:0;
+    padding:6px;
+}
+/* @title Menu Row */
+/* @help The row for the menu list */
+.item-row {
+    width:100%;
+    display:table-row;
+    cursor:pointer;
+    height:42px;
+    background:#fff;
+}
+/* @title Menu Active Row */
+/* @help The active row for the menu list */
+.item-row-active {
+    background-color:#DDDDDD;
+}
+/* @title Menu Hover */
+/* @help The hover for the menu list */
+.item-row:hover {
+    background-color:#EEEEEE;
+}
+/* @title Menu Icon */
+/* @help The icon for the menu item */
+.item-icon {
+    display:table-cell;
+    padding:3px;
+    border-bottom:0 solid #aaa;
+}
+/* @title Menu Entry */
+/* @help The text area for the menu item */
+.item-entry {
+    width:100%;
+    display:table-cell;
+    padding:6px;
+    font-size:14px;
+    color:#000000;
+    vertical-align:middle;
+    border-bottom:0 solid #aaa;
+}
+.item-enabled {
+    display:table-cell;
+    padding-right:6px;
+    border-bottom:0 solid #aaa;
+}
+.item-disabled {
+    display:table-cell;
+    color:#000000;
+    background:#f60;
+    font-size:11px;
+    padding:6px;
+    border:0 solid #aaa;
+    border-radius:4px;
+}
+/* @title Menu Item Active */
+/* @help The active state of a menu item */
+.item-active {
+    display:table-cell;
+    background:#336600;
+    font-size:11px;
+    padding:6px;
+    border:0 solid #aaa;
+    border-radius:4px;
+}
+#item-work {
+    background-color:#DDDDDD;
+}
+

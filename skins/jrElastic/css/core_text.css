@@ -1,0 +1,48 @@
+/*
+ * Jamroom 5 Elastic CSS
+ * Copyright 2003-2011 by Talldude Networks, LLC.
+ * @author Brian Johnson - brian@talldude.net
+ */
+
+/* @title Rank */
+/* @help This is the ranking number */
+.rank {
+	font-weight:bold;
+	font-size:12px;
+    padding:3px;
+    color:#000;
+}
+
+/* @title Normal */
+/* @help This is the regular body text */
+.normal {
+	font-size:12px;
+    color:#000;
+}
+/* @title Hilited */
+/* @help This is the hilite text */
+.hilite {
+	font-size:12px;
+	font-weight:bold;
+    color:#FC0;
+}
+/* @title Media Title */
+/* @help This is the Media Title text. */
+.media_title {
+	text-transform:capitalize;
+	font-size:12px;
+	font-weight:bold;
+    color:#000;
+}
+/* @title Media Title Link */
+/* @help This is the Media Title link text */
+.media_title a {
+    color:#336699;
+    text-decoration:none;
+}
+/* @title Media Title Hover */
+/* @help This is the Media Title hover text */
+.media_title a:hover {
+    color: #333;
+    text-decoration:underline;
+}

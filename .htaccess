@@ -1,0 +1,26 @@
+# Jamroom 5 .htaccess file
+DirectoryIndex index.html index.php sitemap.xml modules/jrCore/router.php
+
+Options +FollowSymLinks
+Options -MultiViews -Indexes
+RewriteEngine On
+
+<IfModule mod_headers.c>
+Header unset ETag
+FileETag None
+# Expires for CSS, JS and Images
+<filesMatch ".(ico|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Expires "Thu, 15 Apr 2018 20:00:00 GMT"
+</FilesMatch>
+</IfModule>
+
+# Compress everything we can
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript text/javascript-x application/javascript
+</IfModule>
+
+# All requests through the front controller
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)$ modules/jrCore/router.php?_uri=$1 [NC,L]

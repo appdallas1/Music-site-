@@ -1,0 +1,31 @@
+/* Tablets */
+@media only screen and (max-width: 1023px) {
+
+	body {
+    	font-size: 0.8em;
+	    line-height: 1.5em;
+	}
+    #header {
+        margin-bottom:0;
+    }
+    #footer {
+        margin-top:0;
+    }
+    .tab {
+        background:#000;
+        float:left;
+        list-style:none;
+        margin:0;
+        font-size:14px;
+        color:#fff;
+        text-decoration:none;
+        text-transform:capitalize;
+        padding:6px;
+        text-align:left;
+        cursor:pointer;
+        -webkit-border-radius:0 0 0 0;
+        -moz-border-radius:0 0 0 0;
+        border-radius:0 0 0 0;
+    }
+
+}

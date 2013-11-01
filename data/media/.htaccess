@@ -1,0 +1,4 @@
+# This file protects your media files - leave in place
+RewriteEngine On
+RewriteRule !0/0 - [F,L]
+

@@ -1,0 +1,3 @@
+# This file protects the log directory from being access - leave in place
+Order deny,allow
+Deny from all

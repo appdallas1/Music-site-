@@ -1,0 +1,59 @@
+.bigtable {
+    background: #FFF !important;
+}
+.bignum {
+    background:#333;
+    height:68px;
+    text-align:center;
+    font-size:42px !important;
+    padding:15px 6px;
+    -moz-box-shadow:inset 0 2px 16px #000;
+    -webkit-box-shadow:inset 0 2px 16px #000;
+    box-shadow:inset 0 2px 16px #000;
+}
+.bignum1 {
+    color:#fc0 !important;
+}
+.bignum2 {
+    color:#f93 !important;
+}
+.bignum3 {
+    color:#6C6 !important;
+}
+.bignum4 {
+    color:#09f !important;
+}
+.bignum5 {
+    color:#c33 !important;
+}
+.bignum6 {
+    color:#3cc !important;
+}
+.bignum span {
+    font-size:12px !important;
+    line-height: 12px;
+}
+.bigsystem {
+    text-align:left;
+}
+.bigsystem-inf {
+    color: #FFF !important;
+}
+.bigsystem-min {
+    background-color:#FFCC00;
+    color: #000 !important;
+}
+.bigsystem-maj {
+    background-color:#FF9900;
+    color: #000 !important;
+}
+.bigsystem-cri {
+    background-color:#FF6600;
+    color: #000 !important;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+    .bignum {
+        font-size:28px !important;
+    }
+}

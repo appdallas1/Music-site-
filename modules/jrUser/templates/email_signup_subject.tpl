@@ -1,0 +1,1 @@
+{$system_name} {jrCore_lang module="jrUser" id="88" default="account validation"}

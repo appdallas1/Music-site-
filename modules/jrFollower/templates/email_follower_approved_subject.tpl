@@ -1,0 +1,1 @@
+{jrCore_lang module="jrFollower" id="17" default="You are now following"} {$profile_name}!

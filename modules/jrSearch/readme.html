@@ -1,0 +1,66 @@
+<table>
+    <tr>
+        <td style="vertical-align:top;padding:10px;">
+            <h2>Jamroom5 jrSearch Module</h2>
+            <b>Revision History</b>
+            <ul>
+                <li>V1.0.0 dd mmm yyyy - Initial release.</li>
+            </ul>
+            <b>Description</b>
+            <ul>
+                <li>Provides a site datastore search feature</li>
+                <li>Smarty template calls for a search form, recent and popular searches</li>
+            </ul>
+            <b>Installation</b>
+            <ul>
+                <li>Copy the module folder to your /modules folder.</li>
+                <li>Login as admin and this module should show under the modules Media category.</li>
+                <li>It shouldn't be necessary to run the Integrity Check, but if there are any issues, do it anyway.</li>
+            </ul>
+            <b>Module Configuration</b>
+            <ul>
+                <li>Click on the module's 'Global Config' tab. A page is displayed where you can select whether to allow search for logged in users only.</li>
+            </ul>
+            <b>Template Integration</b>
+            <ul>
+                <li>Smarty call {jrSearch_form} to return a search form</li>
+                <li>Parameters are -</li>
+                <ul>
+                    <li>module: module name, comma separated module names, or 'all' to search all modules - default: all</li>
+                    <li>page: optional - default 1</li>
+                    <li>pagebreak: optional - default 10</li>
+                    <li>value: optional - default site search (language file 1)</li>
+                    <li>template: optional - module's html_search_form.tpl</li>
+                    <li>class: optional - passed through to the template</li>
+                    <li>style: optional - passed through to the template</li>
+                </ul>
+            </ul>
+            <ul>
+                <li>Smarty call {jrSearch_recent} to return recent search strings</li>
+                <li>Parameters are -</li>
+                <ul>
+                    <li>user_id: optional - return the specified user's recent searches</li>
+                    <li>module: optional - return the specified module's recent searches</li>
+                    <li>limit: optional - default 5</li>
+                    <li>template: optional - module's search_recent.tpl</li>
+                    <li>class: optional - passed through to the template</li>
+                    <li>style: optional - passed through to the template</li>
+                </ul>
+            </ul>
+            <ul>
+                <li>Smarty call {jrSearch_popular} to return popular search strings</li>
+                <li>Parameters are -</li>
+                <ul>
+                    <li>limit: optional - default 5</li>
+                    <li>template: optional - module's search_popular.tpl</li>
+                    <li>class: optional - passed through to the template</li>
+                    <li>style: optional - passed through to the template</li>
+                </ul>
+            </ul>
+            <b>Help</b>
+            <ul>
+                <li>Post any queries, comments or suggestions on the Jamroom forum or contact Jamroom Support.</li>
+            </ul>
+        </td>
+    </tr>
+</table>

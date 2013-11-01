@@ -1,0 +1,38 @@
+.follow_button {
+    color:#484848;
+    text-decoration:none;
+    text-transform:capitalize;
+    font-weight:bold;
+    font-size:14px;
+    height:32px;
+    padding:0 12px;
+    margin:0 2px;
+    border-radius:5px;
+    vertical-align:middle;
+    border:solid 1px #7f7f7f;
+}
+.follow {
+    cursor:pointer;
+    background:#ffdd00;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ddffaa', endColorstr='#bbee88'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#ddffaa), to(#bbee88)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #ddffaa,  #bbee88); /* for firefox 3.6+ */
+}
+.following {
+    cursor:pointer;
+    background:#ccff99;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ddffaa', endColorstr='#bbee88'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#ddffaa), to(#bbee88)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #ddffaa,  #bbee88); /* for firefox 3.6+ */
+}
+.follow_pending {
+    background:#aaddff;
+    color:#000000;
+  	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#bbeeff', endColorstr='#99ccee'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#bbeeff), to(#99ccee)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #bbeeff,  #99ccee); /* for firefox 3.6+ */
+}
+#follow_indicator {
+    display:none;
+}
+

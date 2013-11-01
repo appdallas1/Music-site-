@@ -1,0 +1,110 @@
+#wrapper {
+    margin:0 auto;
+}
+
+/* @title Site Content */
+/* @help This is the main Site Content holder */
+#content {
+    max-width:1140px;
+    margin-left:auto;  /* @ignore */
+    margin-right:auto; /* @ignore */
+    background-color:#FFFFFF;
+    height:100%; /* @ignore */
+    font-size:1em;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, .3);
+    border-width:1px;
+    border-style:solid;
+    border-color:#999999;
+    padding:6px;
+}
+
+/* @title block */
+/* @help This is the main style for the individual blocks of the page */
+.block {
+    background-color:transparent;
+    padding:12px;
+    margin:0 auto;
+}
+
+.recommend_box {
+    background-color:#EDEDED;
+    padding:25px;
+    margin:12px;
+    border-style:solid;
+    border-color:#DDDDDD;
+    border-width:1px;
+    font-size:16px;
+    color:#000000;
+    border-radius:5px;
+}
+
+.recommend_box a {
+    color:#336699;
+    text-decoration:none;
+}
+.recommend_box a:hover {
+    color: #333;
+    text-decoration:underline;
+}
+.search_box {
+    background-color:#EDEDED;
+    padding:25px;
+    margin:12px;
+    border-style:solid;
+    border-color:#DDDDDD;
+    border-width:1px;
+    font-size:16px;
+    color:#000000;
+    border-radius:5px;
+}
+
+.search_box a {
+    color:#336699;
+    text-decoration:none;
+}
+.search_box a:hover {
+    color: #333;
+    text-decoration:underline;
+}
+.signup_box {
+    background-color:#EDEDED;
+    padding:25px;
+    margin:12px;
+    border-style:solid;
+    border-color:#DDDDDD;
+    border-width:1px;
+    font-size:16px;
+    color:#000000;
+    border-radius:5px;
+    width:400px;
+}
+
+.signup_box a {
+    color:#336699;
+    text-decoration:none;
+}
+.signup_box a:hover {
+    color: #333;
+    text-decoration:underline;
+}
+.login_box {
+    background-color:#EDEDED;
+    padding:25px;
+    margin:12px;
+    border-style:solid;
+    border-color:#DDDDDD;
+    border-width:1px;
+    font-size:16px;
+    color:#000000;
+    border-radius:5px;
+    width:400px;
+}
+
+.login_box a {
+    color:#336699;
+    text-decoration:none;
+}
+.login_box a:hover {
+    color: #333;
+    text-decoration:underline;
+}

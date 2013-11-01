@@ -1,0 +1,1 @@
+<input type="button" id="follow" class="follow_button follow" name="follow" value="{$value}" title="{$title|default:""}" onclick="jrFollowProfile('follow',{$profile_id});">

@@ -1,0 +1,1 @@
+{jrCore_lang module="jrFollower" id="34" default="You have a new %1 follower!" 1=$system_name}

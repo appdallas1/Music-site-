@@ -1,0 +1,55 @@
+/* @title Select */
+/* @help Format for the Select form field. */
+.form_select {
+    color:#000000;
+    font-size:14px;
+    width:76%;
+    padding:3px; /* @ignore */
+    margin:2px; /* @ignore */
+    background-color:#FFFFFF;
+    border-width:1px;
+    border-style:solid;
+    border-color:#7F7F7F;
+    border-radius:4px;
+}
+/* @title Select Multiple */
+/* @help Format for the Select form field when multiple items can be selected. */
+.form_select_multiple {
+}
+
+.form_select_and_text_select {
+    width:30%;
+    margin-right:12px;
+}
+.form_select_and_text_text {
+    width:30%;
+}
+
+/* @title Select Jumper */
+/* @help Format for the Select Jumper field used in Page Headers */
+.form_select_item_jumper {
+    width:35%;
+}
+
+.form_admin_search {
+    width:35%;
+    font-style:italic;
+    color:#AAAAAA;
+}
+
+/* @title Select Focus */
+/* @help Class applied to a select field when the field is selected. */
+select:focus {
+    border-width:1px;
+    border-style:solid;
+    border-color:#000000;
+    background-color: #EEEEEE;
+}
+
+/* @title Time Input */
+/* @help Class applied to the Time Select Field */
+.form_time {
+    margin-left:12px;
+    width:15%;
+    min-width:95px;
+}

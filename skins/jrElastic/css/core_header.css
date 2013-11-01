@@ -1,0 +1,61 @@
+/* @title Header */
+/* @help This is the main header section for the site */
+#header {
+    height:76px;
+    background-color: #333333;
+    background-image: url("{$jamroom_url}/skins/jrElastic/img/bckgrd.png");
+    color:#FFFFFF;
+    margin-bottom:12px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+}
+/* @title Header Links */
+/* @help Header text URL */
+#header a {
+    text-transform:capitalize;
+    text-decoration:none;
+    color:#fff;
+}
+
+/* @title Header Link Hover */
+/* @help Header text URL hover */
+#header a:hover {
+    text-decoration:underline;
+    color:#fff;
+}
+
+#header_content {
+    height:100%;
+    max-width:1140px;
+    margin-left:auto;
+    margin-right:auto;
+    text-shadow:2px 2px 4px #000;
+}
+
+#main_logo {
+    float:left;
+    vertical-align:middle;
+    padding:12px;
+    cursor:pointer;
+}
+
+/* @title Main Menu */
+/* @help Main Menu */
+#main_menu {
+    height:100%;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:right;
+    font-size:16px;
+    padding-right:12px;
+}
+
+#add_to_cart_success {
+    float:left;
+    position:absolute;
+    margin:0 auto;
+    background-color:#fc0;
+    border:1px solid #999;
+    padding:7px;
+    font-size:14px;
+    border-radius:4px;
+}

@@ -1,0 +1,24 @@
+/* @title Info Log */
+/* @help The Activity Log Information section */
+.log-inf {
+    background-color:transparent;
+    text-align:left;
+}
+/* @title Minor Log */
+/* @help The Activity Log Minor section */
+.log-min {
+    background-color:#FFCC00;
+    text-align:left;
+}
+/* @title Major Log */
+/* @help The Activity Log Major section */
+.log-maj {
+    background-color:#FF9900;
+    text-align:left;
+}
+/* @title Critical Log */
+/* @help The Activity Log Critical section */
+.log-cri {
+    background-color:#FF6600;
+    text-align:left;
+}

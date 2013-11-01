@@ -1,0 +1,50 @@
+.clear {clear:both;}
+.relative {position:relative;}
+.absolute {position:absolute;}
+.float-left {float:left;}
+.float-right {float:right;}
+.left {text-align:left;}
+.center {text-align:center;}
+.right {text-align:right;}
+.middle {vertical-align:middle;}
+.nowrap {white-space:nowrap;}
+.blink {text-decoration:blink;}
+.normal {font-weight:normal;}
+.pointer {cursor:pointer;}
+legend {font-weight:bold;}
+img {border:0;}
+
+.m0 {margin:0;} .m5 {margin:5px;} .m10 {margin:10px;} .m15 {margin:15px;} .m20 {margin:20px;} .m30 {margin:30px;}
+.mt0 {margin-top:0;} .mt5 {margin-top:5px;} .mt10 {margin-top:10px;} .mt15 {margin-top:15px;} .mt20 {margin-top:20px;} .mt30 {margin-top:30px;}
+.mr5 {margin-right:5px;} .mr10 {margin-right:10px;} .mr15 {margin-right:15px;} .mr20 {margin-right:20px;} .mr30 {margin-right:30px;}
+.mb0 {margin-bottom:0;} .mb1 {margin-bottom:1px;} .mb5 {margin-bottom:5px;} .mb10 {margin-bottom:10px;} .mb15 {margin-bottom:15px;} .mb20 {margin-bottom:20px;} .mb30 {margin-bottom:30px;}
+.ml5 {margin-left:5px;} .ml10 {margin-left:10px;} .ml15 {margin-left:15px;} .ml20 {margin-left:20px;} .ml30 {margin-left:30px;}
+.p3 {padding:3px;} .p3-5 {padding:3px 5px;} .p5 {padding:5px;} .p10 {padding:10px;} .pt10 {padding-top:10px;} .pb10 {padding-bottom:10px;} .p20 {padding:20px;} .p30 {padding:30px;}
+
+code {background:#E6E6FF; border:1px solid #B2B2FF;}
+.test {border:1px solid red;}
+
+.rounded {-moz-border-radius:6px; -webkit-border-radius:6px; -khtml-border-radius:6px; border-radius:6px;}
+.rtl {-moz-border-radius-topleft:6px; -webkit-border-top-left-radius:6px; -khtml-border-radius-topleft:6px; border-top-left-radius:6px;}
+.rtr {-moz-border-radius-topright:6px; -webkit-border-top-right-radius:6px; -khtml-border-radius-topright:6px; border-top-right-radius: 6px;}
+.rbr {-moz-border-radius-bottomright:6px; -webkit-border-bottom-right-radius:6px; -khtml-border-radius-bottomright:6px; border-bottom-right-radius: 6px;}
+.rbl {-moz-border-radius-bottomleft:6px; -webkit-border-bottom-left-radius:6px; -khtml-border-radius-bottomleft:6px; border-bottom-left-radius: 6px;}
+
+.hoverme:hover .showme {display:block;}
+.hoverme:hover .hideme {display:none;}
+.showme, .hidden {display:none;}
+
+.whitebck {background-color:#FFFFFF;color:#000000;}
+.blackbck {background-color:#000000;color:#FFFFFF;}
+.darkgraybck {background-color:#333333;color:#FFFFFF;}
+.lightgraybck {background-color:#666666;color:#000000;}
+
+/* float clearing for IE6 */
+* html .clearfix {height:1%; overflow:visible;}
+
+/* float clearing for IE7 */
+*+html .clearfix {min-height:1%;}
+
+/* float clearing for everyone else */
+.clearfix:after {clear:both; content: "."; display:block; height:0; visibility:hidden; font-size:0;}
+

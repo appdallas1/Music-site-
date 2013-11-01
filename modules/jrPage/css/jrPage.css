@@ -1,0 +1,11 @@
+/* Jamroom 5 Page Module CSS */
+
+#jrpage_title {
+}
+#jrpage_byline {
+    font-size:10px;
+    font-style:italic;
+}
+#jrpage_body {
+    font-size:16px;
+}

@@ -1,0 +1,3 @@
+{jrCore_lang module="jrFollower" id="6" default="No longer follow this profile?" assign="prompt"}
+{jrCore_lang module="jrFollower" id="8" default="You are currently following this profile" assign="title"}
+<input type="button" id="unfollow" class="follow_button following" name="follow" value="{$value}" title="{$title}" onclick="if(confirm('{$prompt|addslashes}')) { jrUnFollowProfile('unfollow',{$profile_id}); }">

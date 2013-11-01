@@ -1,0 +1,2 @@
+{jrCore_lang module="jrFollower" id="7" default="Your follow request is currently pending - once the profile owner approves your follow request, you will be notified" assign="title"}
+<input type="button" id="follow" class="follow_button follow_pending" name="follow" value="{$value}" title="{$title}" disabled="disabled">

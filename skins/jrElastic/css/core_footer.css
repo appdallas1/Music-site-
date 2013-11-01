@@ -1,0 +1,38 @@
+#footer {
+    background:#333 url("{$jamroom_url}/skins/jrElastic/img/bckgrd.png");
+    margin-top:12px;
+    box-shadow: 0 -2px 3px rgba(0, 0, 0, .5);
+}
+
+/* @title Footer Links */
+/* @help Footer text URL */
+#footer a {
+    text-transform:capitalize;
+    text-decoration:none;
+    color:#fff;
+}
+/* @title Footer Link Hover */
+/* @help Footer text URL hover */
+#footer a:hover {
+    text-decoration:underline;
+}
+
+#footer_content {
+    max-width:1140px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#footer_logo {
+    padding:12px;
+    vertical-align:middle;
+}
+
+/* @title Footer Text */
+/* @help Footer text */
+#footer_text {
+    text-align:right;
+    color:#CCCCCC;
+    font-size:14px;
+    padding:12px;
+}
